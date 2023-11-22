@@ -113,7 +113,22 @@ extension PhotoEditorViewController {
         photoEditorDelegate?.doneEditing(image: image)
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func rotateButtonPressed(_ sender: Any) {
+        currentRotationAngle += CGFloat(90) * CGFloat.pi / 180
 
+        guard let image = image else {
+            print("Image not found")
+            return
+        }
+
+        let transform = CGAffineTransform(rotationAngle: currentRotationAngle)
+        let rect = CGRect(origin: CGPoint.zero, size: image.size)
+        let rotatedImage = image.rotatedImageWithTransform(transform, croppedToRect: rect)
+
+        canvasImageView.image = rotatedImage
+    }
+    
     //MAKR: helper methods
     
     @objc func image(_ image: UIImage, withPotentialError error: NSErrorPointer, contextInfo: UnsafeRawPointer) {

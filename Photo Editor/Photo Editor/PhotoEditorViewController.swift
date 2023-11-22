@@ -39,6 +39,8 @@ public final class PhotoEditorViewController: UIViewController {
     @IBOutlet weak var shareButton: UIButton!
     @IBOutlet weak var clearButton: UIButton!
     
+    @IBOutlet weak var rotateButton: UIButton!
+    
     @objc public var image: UIImage?
     /**
      Array of Stickers -UIImage- that the user will choose from
@@ -68,7 +70,8 @@ public final class PhotoEditorViewController: UIViewController {
     var activeTextView: UITextView?
     var imageViewToPan: UIImageView?
     var isTyping: Bool = false
-    
+    var currentRotationAngle: CGFloat = 0
+
     
     var stickersViewController: StickersViewController!
 
