@@ -115,18 +115,15 @@ extension PhotoEditorViewController {
     }
     
     @IBAction func rotateButtonPressed(_ sender: Any) {
-        currentRotationAngle += CGFloat(90) * CGFloat.pi / 180
+        currentRotationAngle += 90
 
         guard let image = image else {
             print("Image not found")
             return
         }
 
-        let transform = CGAffineTransform(rotationAngle: currentRotationAngle)
-        let rect = CGRect(origin: CGPoint.zero, size: image.size)
-        let rotatedImage = image.rotatedImageWithTransform(transform, croppedToRect: rect)
-
-        canvasImageView.image = rotatedImage
+        let rotatedImage = image.imageRotated(image, byDegrees: currentRotationAngle)
+        setImageView(image: rotatedImage)
     }
     
     //MAKR: helper methods

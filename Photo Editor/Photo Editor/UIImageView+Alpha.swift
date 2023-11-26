@@ -1,6 +1,6 @@
 //
 //  UIImageViewExtenstions.swift
-//  Photo Editor
+//  Image Editor
 //
 //  Created by Mohamed Hamed on 5/10/17.
 //

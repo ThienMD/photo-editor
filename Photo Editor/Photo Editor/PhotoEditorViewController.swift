@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Photo Editor
+//  Image Editor
 //
 //  Created by Mohamed Hamed on 4/23/17.
 //  Copyright © 2017 Mohamed Hamed. All rights reserved.
@@ -106,6 +106,9 @@ public final class PhotoEditorViewController: UIViewController {
         configureCollectionView()
         stickersViewController = StickersViewController(nibName: "StickersViewController", bundle: Bundle(for: StickersViewController.self))
         hideControls()
+
+        // set languages for controls
+        doneButton.setTitle(TranslationService.shared.getTranslation(for: "doneTitle"), for: .normal)
     }
     
     func configureCollectionView() {

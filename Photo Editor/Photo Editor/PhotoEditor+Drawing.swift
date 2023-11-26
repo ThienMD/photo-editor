@@ -1,6 +1,6 @@
 //
 //  PhotoEditor+Drawing.swift
-//  Photo Editor
+//  Image Editor
 //
 //  Created by Mohamed Hamed on 6/16/17.
 //

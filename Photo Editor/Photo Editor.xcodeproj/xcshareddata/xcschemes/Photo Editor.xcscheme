@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "059EA7181EACB8790072C0FE"
-               BuildableName = "Photo Editor.app"
-               BlueprintName = "Photo Editor"
-               ReferencedContainer = "container:Photo Editor.xcodeproj">
+               BuildableName = "Image Editor.app"
+               BlueprintName = "Image Editor"
+               ReferencedContainer = "container:Image Editor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "059EA7181EACB8790072C0FE"
-            BuildableName = "Photo Editor.app"
-            BlueprintName = "Photo Editor"
-            ReferencedContainer = "container:Photo Editor.xcodeproj">
+            BuildableName = "Image Editor.app"
+            BlueprintName = "Image Editor"
+            ReferencedContainer = "container:Image Editor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "059EA7181EACB8790072C0FE"
-            BuildableName = "Photo Editor.app"
-            BlueprintName = "Photo Editor"
-            ReferencedContainer = "container:Photo Editor.xcodeproj">
+            BuildableName = "Image Editor.app"
+            BlueprintName = "Image Editor"
+            ReferencedContainer = "container:Image Editor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "059EA7181EACB8790072C0FE"
-            BuildableName = "Photo Editor.app"
-            BlueprintName = "Photo Editor"
-            ReferencedContainer = "container:Photo Editor.xcodeproj">
+            BuildableName = "Image Editor.app"
+            BlueprintName = "Image Editor"
+            ReferencedContainer = "container:Image Editor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

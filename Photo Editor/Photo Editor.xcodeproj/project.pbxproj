@@ -83,7 +83,7 @@
 		056513431EF489CD009EA38F /* PhotoEditor+Controls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Controls.swift"; sourceTree = "<group>"; };
 		056513441EF489CD009EA38F /* PhotoEditor+Crop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Crop.swift"; sourceTree = "<group>"; };
 		056513451EF489CD009EA38F /* PhotoEditor+Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Font.swift"; sourceTree = "<group>"; };
-		059EA7191EACB8790072C0FE /* Photo Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059EA7191EACB8790072C0FE /* Image Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059EA71C1EACB8790072C0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059EA7231EACB8790072C0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059EA7261EACB8790072C0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		059EA7101EACB8780072C0FE = {
 			isa = PBXGroup;
 			children = (
-				059EA71B1EACB8790072C0FE /* Photo Editor */,
+				059EA71B1EACB8790072C0FE /* Image Editor */,
 				059EA71A1EACB8790072C0FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,12 +112,12 @@
 		059EA71A1EACB8790072C0FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				059EA7191EACB8790072C0FE /* Photo Editor.app */,
+				059EA7191EACB8790072C0FE /* Image Editor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		059EA71B1EACB8790072C0FE /* Photo Editor */ = {
+		059EA71B1EACB8790072C0FE /* Image Editor */ = {
 			isa = PBXGroup;
 			children = (
 				056513081EF489B4009EA38F /* PhotoEditorViewController.swift */,
@@ -160,15 +160,15 @@
 				059EA7251EACB8790072C0FE /* LaunchScreen.storyboard */,
 				059EA7281EACB8790072C0FE /* Info.plist */,
 			);
-			path = "Photo Editor";
+			path = "Image Editor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		059EA7181EACB8790072C0FE /* Photo Editor */ = {
+		059EA7181EACB8790072C0FE /* Image Editor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 059EA72B1EACB8790072C0FE /* Build configuration list for PBXNativeTarget "Photo Editor" */;
+			buildConfigurationList = 059EA72B1EACB8790072C0FE /* Build configuration list for PBXNativeTarget "Image Editor" */;
 			buildPhases = (
 				059EA7151EACB8790072C0FE /* Sources */,
 				059EA7161EACB8790072C0FE /* Frameworks */,
@@ -178,9 +178,9 @@
 			);
 			dependencies = (
 			);
-			name = "Photo Editor";
-			productName = "Photo Editor";
-			productReference = 059EA7191EACB8790072C0FE /* Photo Editor.app */;
+			name = "Image Editor";
+			productName = "Image Editor";
+			productReference = 059EA7191EACB8790072C0FE /* Image Editor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 059EA7141EACB8780072C0FE /* Build configuration list for PBXProject "Photo Editor" */;
+			buildConfigurationList = 059EA7141EACB8780072C0FE /* Build configuration list for PBXProject "Image Editor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,7 +213,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				059EA7181EACB8790072C0FE /* Photo Editor */,
+				059EA7181EACB8790072C0FE /* Image Editor */,
 			);
 		};
 /* End PBXProject section */
@@ -386,7 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8BKM8368H;
-				INFOPLIST_FILE = "Photo Editor/Info.plist";
+				INFOPLIST_FILE = "Image Editor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hamed.Photo-Editor";
@@ -400,7 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8BKM8368H;
-				INFOPLIST_FILE = "Photo Editor/Info.plist";
+				INFOPLIST_FILE = "Image Editor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hamed.Photo-Editor";
@@ -412,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		059EA7141EACB8780072C0FE /* Build configuration list for PBXProject "Photo Editor" */ = {
+		059EA7141EACB8780072C0FE /* Build configuration list for PBXProject "Image Editor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059EA7291EACB8790072C0FE /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		059EA72B1EACB8790072C0FE /* Build configuration list for PBXNativeTarget "Photo Editor" */ = {
+		059EA72B1EACB8790072C0FE /* Build configuration list for PBXNativeTarget "Image Editor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059EA72C1EACB8790072C0FE /* Debug */,
