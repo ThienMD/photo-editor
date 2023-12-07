@@ -28,7 +28,7 @@ class ColorsCollectionViewDelegate: NSObject, UICollectionViewDataSource, UIColl
                   UIColor.purple,
                   UIColor.cyan,
                   UIColor.brown,
-                  UIColor.magenta]
+                  UIColor.magenta,]
     
     override init() {
         super.init()
@@ -52,6 +52,14 @@ class ColorsCollectionViewDelegate: NSObject, UICollectionViewDataSource, UIColl
         let cell  = collectionView.dequeueReusableCell(withReuseIdentifier: "ColorCollectionViewCell", for: indexPath) as! ColorCollectionViewCell
         cell.colorView.backgroundColor = colors[indexPath.item]
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 10 // Adjust to your desired spacing
+    }
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 10 // Adjust to your desired spacing
     }
     
 }
